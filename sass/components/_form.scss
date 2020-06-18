@@ -2,6 +2,19 @@
   padding: 40px;
 }
 
+.form__header {
+  margin: 0;
+  padding-bottom: 30px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $titles-text-color;
+}
+
 .form__field {
   position: relative;
 
@@ -124,7 +137,8 @@ textarea {
   }
 }
 
-.form .button {
+.form__send-button {
+  @extend %button;
   display: block;
   margin-left: auto;
   margin-right: auto;

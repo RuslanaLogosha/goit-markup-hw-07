@@ -57,7 +57,7 @@
 
 }
 
-.modal-close-button {
+.modal__close-button {
   position: absolute;
   margin-right: 6px;
   margin-left: 5px;
@@ -67,7 +67,7 @@
 
   width: 18px;
   height: 18px;
-  fill: #logo-text-color;
+  fill: $logo-text-color;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -77,15 +77,6 @@
   }
 }
 
-.modal__header {
-  margin: 0;
-  padding-bottom: 30px;
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $titles-text-color;
+.modal__open-button {
+  @extend %button;
 }
