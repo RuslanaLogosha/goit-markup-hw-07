@@ -58,9 +58,8 @@
         </div>
       </div>
     </section>
-    
 
-      <!-- Модалка -->
+    <!-- Модалка -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
      <button class="modal-closing" data-modal-close>
@@ -113,8 +112,6 @@
     </div>
   </div>
   
-  
-
     <!-- Advantages -->
     <section class="advantages"> 
       
@@ -455,7 +452,7 @@
 <!-- Отступ на боди для фиксированного хедера -->
   <script>
     const { height: pageHeaderHeight } = document
-      .querySelector(".header-fixed")
+      .querySelector(".header--fixed")
       .getBoundingClientRect();
 
     document.body.style.paddingTop = `${pageHeaderHeight}px`;

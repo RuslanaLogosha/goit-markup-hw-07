@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <header class="header--fixed">
+  <header class="header--fixed header__border">
     <div class="header--positioned">
       <nav class="main-nav"> 
         <a href="./index.html" class="header__logo"><span class="web">Web</span> Studio</a>
@@ -46,18 +46,18 @@
   </header>
 
 
-  <main class="main">
+  <main>
 
   <!-- Filters -->
   <section class="filters">
-    <h2 class="visually-hidden">Фильтры</h2> 
-    <ul class="list container">
-      <div class="filters-list">
-        <li class="item"><a href="#" class="button-portfolio ancor">Веб-сайты</a></li>
-        <li class="item"><a href="#" class="button-portfolio ancor">Приложения</a></li>
-        <li class="item"><a href="#" class="button-portfolio ancor">Все</a></li>
-        <li class="item"><a href="#" class="button-portfolio ancor">Дизайн</a></li>
-        <li class="item"><a href="#" class="button-portfolio ancor">Маркетинг</a></li>
+    <h2 class="filters__header">Фильтры</h2> 
+    <ul class="filters__list-cover">
+      <div class="filters__list">
+        <li class="filters__list-item"><a href="#" class="filters__button">Веб-сайты</a></li>
+        <li class="filters__list-item"><a href="#" class="filters__button">Приложения</a></li>
+        <li class="filters__list-item"><a href="#" class="filters__button">Все</a></li>
+        <li class="filters__list-item"><a href="#" class="filters__button">Дизайн</a></li>
+        <li class="filters__list-item"><a href="#" class="filters__button">Маркетинг</a></li>
       </div>
     </ul>
   </section>
@@ -224,7 +224,7 @@
 
  <script>
   const { height: pageHeaderHeight } = document
-    .querySelector(".header-fixed")
+    .querySelector(".header--fixed")
     .getBoundingClientRect();
 
   document.body.style.paddingTop = `${pageHeaderHeight}px`;

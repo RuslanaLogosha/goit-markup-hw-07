@@ -290,18 +290,18 @@ h1, h2, h3 {
   background-color: #FFFFFF;
 }
 
-.site-nav, .site-auth, .advantages__list, .spec__list, .team__list, .icons__list, .customers__list, .footer__icons-list {
+.site-nav, .site-auth, .advantages__list, .spec__list, .team__list, .icons__list, .customers__list, .footer__icons-list, .filters__list-cover {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.header__logo, .site-nav__link, .footer__contact {
+.header__logo, .site-nav__link, .footer__contact, .filters__button {
   text-decoration: none;
   cursor: pointer;
 }
 
-.advantages__header {
+.advantages__header, .filters__header {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -309,7 +309,7 @@ h1, h2, h3 {
   margin: -1px;
 }
 
-.header--positioned, .advantages__container, .specialization__container, .team__container, .customers__container, .footer-flex {
+.header--positioned, .advantages__container, .specialization__container, .team__container, .customers__container, .footer-flex, .filters__list-cover {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -332,6 +332,30 @@ h1, h2, h3 {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
+}
+
+.filters__button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #F5F4FA;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filters__button:hover, .filters__button:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .specialization__main-title, .team__main-title, .customers__main-title {
@@ -377,6 +401,10 @@ h1, h2, h3 {
 
 .header__logo .web {
   color: #2196F3;
+}
+
+.header__border {
+  border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -1182,5 +1210,23 @@ textarea {
 .btn-text:hover::before {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+.filters {
+  padding-top: 93px;
+  padding-bottom: 50px;
+}
+
+.filters__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filters__list-item + .filters__list-item {
+  margin-left: 8px;
 }
 /*# sourceMappingURL=main.css.map */
