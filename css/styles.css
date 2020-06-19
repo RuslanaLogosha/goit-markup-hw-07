@@ -621,7 +621,7 @@ button:focus {
 } */
 
 /* General for specialization, team and customers h2*/
-.section-title {
+/* .section-title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -631,34 +631,34 @@ button:focus {
   letter-spacing: 0.03em;
   color: var(--titles-text-color);
   
-}
+} */
 
 /* What we do */
-.spec-list {
+/* .spec-list {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.spec-item {
+/* .spec-item {
   width: calc((100% - 60px) / 3);
 }
 
 .spec-item + .spec-item {
   margin-left: 30px;
-}
+} */
 
-.specialization {
+/* .specialization {
   padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: var(--main-background-color);
-}
+} */
 
-.spec-overlay {
+/* .spec__overlay {
   position: relative;
-}
+} */
 
-.specialization .spec-titles {
+/* .specialization .spec__title {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -677,22 +677,22 @@ button:focus {
   text-transform: uppercase;
   color: var(--main-title-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Our team */
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: var(--team-background-color);
-}
+} */
 
-.team-list {
+/* .team-list {
   display: flex;
   flex-grow: wrap;
-}
+} */
 
-.team-item {
+/* .team-item {
   width: calc((100% - 90px) / 4);
   text-align: center;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -700,11 +700,12 @@ button:focus {
   
 }
 
+
 .team-item + .team-item {
   margin-left: 30px;
-}
-
-.team .team-names {
+} */
+/* 
+.team .team__names {
   padding-top: 30px;
   margin-bottom: 10px;
 
@@ -713,28 +714,28 @@ button:focus {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--titles-text-color);
-}
-
-.team .team-jobs {
+} */
+/* 
+.team .team__jobs {
   margin-top: 0;
   margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+} */
 
-.icons-list {
+/* .icons__list {
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
 }
 
-.icons-list > li + li {
+.icons__list > li + li {
   margin-left: 10px;
-}
+} */
 
-.team-icon {
+/* .team-icon {
   width: 44px;
   height: 44px;
   fill: var(--icons-color);
@@ -749,7 +750,7 @@ button:focus {
 .team-icon:focus {
   fill: var(--main-title-color);
   background-color: var(--accent-text-color);
-}
+} */
 
 /* Regular customers */
 .customers {
