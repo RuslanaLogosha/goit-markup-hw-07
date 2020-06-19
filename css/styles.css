@@ -809,22 +809,20 @@ button:focus {
 
 /* Footer */
 /* Adress  */
-.footer {
-  background-color: var(--footer-background-color);
-}
 
-.footer-flex {
+/* .footer {
+  background-color: var(--footer-background-color);
+} */
+
+/* .footer-flex {
   display: flex;
   justify-content: space-between;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
-.footer-container {
-  display: block; 
-}
 
-.footer-logo {
+/* .footer-logo {
   display: block;
   margin-top: 48px;
   margin-bottom: 10px;
@@ -835,17 +833,17 @@ button:focus {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
+} */
 
-.footer-logo .web{
+/* .footer-logo .web{
   color: var(--accent-text-color);
-}
+} */
 
-.address {
+/* .address {
   padding-bottom: 28px;
-}
+} */
 
-.address .exact-address {
+/* .address .exact-address {
   margin-top: 0;
   
   font-style: normal;
@@ -860,11 +858,11 @@ button:focus {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--footer-opaque-color);
-}
+} */
 
 /* Connect social  */
 
-.footer .connect {
+/* .footer .connect {
   margin-top: 48px;
   margin-bottom: 21px;
 
@@ -873,9 +871,9 @@ button:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
-}
+} */
 
-.footer-container .team-icon {
+/* .footer-container .team-icon {
   width: 44px;
   height: 44px;
   fill: var(--main-title-color);
@@ -890,10 +888,10 @@ button:focus {
 .team-icon:focus {
   fill: var(--main-title-color);
   background-color: var(--accent-text-color);
-}
+} */
 
 /* Subscribe */
-.subscribe-email {
+/* .subscribe-email {
   width: 358px;
   height: 50px;
   font-size: 16px;
@@ -904,15 +902,13 @@ button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: var(--footer-background-color);
-
-
-}
+} */
 
 
 
 
 /* Training of button with 2 pseudoelements flying aroud */
-.footer-container .button {
+/* .footer-container .button {
   position: relative;
   overflow: hidden;
 }
@@ -920,9 +916,9 @@ button:focus {
 .footer-container .button:hover,
 .footer-container .button:focus {
   background-color: palevioletred;
-}
+} */
 
-.btn-text {
+/* .btn-text {
   display: inline-flex;
   font-weight: 900;
   font-family: Roboto;
@@ -931,9 +927,9 @@ button:focus {
   overflow: hidden;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.btn-text::after {
+/* .btn-text::after {
   content: '';
   display: inline-block;
   margin-left: 10px;
@@ -945,13 +941,13 @@ button:focus {
   background-size: contain;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.btn-text:hover::after {
+/* .btn-text:hover::after {
   transform: translateY(-35px);
-}
+} */
 
-.btn-text::before {
+/* .btn-text::before {
   position: absolute;
   transform: translateY(40px);
 
@@ -967,14 +963,14 @@ button:focus {
   fill: var(--main-title-color);
  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.btn-text:hover::before {
+/* .btn-text:hover::before {
   transform: translateY(0);
-}
+} */
 
 /* Copyright */
-.copyright {
+/* .copyright {
   padding-top: 18px;
   padding-bottom: 21px;
   margin-bottom: 0;
@@ -985,7 +981,7 @@ button:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--signature-text-color);
-}
+} */
 
 /* Portfolio.css (exept buttons) */
 

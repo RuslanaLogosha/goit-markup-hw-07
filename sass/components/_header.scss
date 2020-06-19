@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.logo {
+.header__logo {
   @extend %ancor;
   display: block;
   padding-top: 25px;
@@ -30,7 +30,7 @@
   color: $logo-text-color;
   }
 
-.logo .web {
+.header__logo .web {
   color: $accent-text-color;
 }
 
