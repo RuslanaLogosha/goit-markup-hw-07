@@ -7,8 +7,8 @@
         "../sass/base/_normalize.scss",
         "../sass/utils/_general.scss",
         "../sass/utils/_placeholders.scss",
-        "../sass/components/_header.scss",
-        "../sass/components/_navigation.scss",
+        "../sass/components/common/_header.scss",
+        "../sass/components/common/_navigation.scss",
         "../sass/components/index/_hero.scss",
         "../sass/components/index/_modal.scss",
         "../sass/components/index/_form.scss",
@@ -16,9 +16,9 @@
         "../sass/components/index/_specialization.scss",
         "../sass/components/index/_team.scss",
         "../sass/components/index/_customers.scss",
-        "../sass/components/_footer.scss",
-        "../sass/components/_filters.scss",
-        "../sass/components/_examples.scss"
+        "../sass/components/common/_footer.scss",
+        "../sass/components/portfolio/_filters.scss",
+        "../sass/components/portfolio/_examples.scss"
     ],
     "names": [],
     "file": "main.css"

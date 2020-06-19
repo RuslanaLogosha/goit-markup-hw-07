@@ -2,8 +2,8 @@
 @import "./base/normalize";
 @import "./utils/general";
 @import "./utils/placeholders";
-@import "./components/header";
-@import "./components/navigation";
+@import "./components/common/header";
+@import "./components/common/navigation";
 @import "./components/index/hero";
 @import "./components/index/modal";
 @import "./components/index/form";
@@ -11,6 +11,6 @@
 @import "./components/index/specialization";
 @import "./components/index/team";
 @import "./components/index/customers";
-@import "./components/footer";
-@import "./components/filters";
-@import "./components/examples";
+@import "./components/common/footer";
+@import "./components/portfolio/filters";
+@import "./components/portfolio/examples";
